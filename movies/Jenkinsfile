@@ -104,7 +104,7 @@ pipeline {
                                 return (it.object().status.phase == "Running")
                             }
                         }
-                        echo "Deployment to DEV  env is complete. Access the API endpoint at the URL http://${routeHost}/movies."
+                        echo "Deployment to DEV  env is complete."
                     }
 		}
             }
